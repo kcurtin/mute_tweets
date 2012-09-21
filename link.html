@@ -1,1 +1,1 @@
-link
+<a href="javascript:(function(){var filterTerm = prompt(%22Enter a term and we will hide all of the tweets that contain it%21%22);    filterFunction(filterTerm);    function filterFunction(filterTerm) {      $(%22.stream-item%22).each(function(){          if ($(this).find(%27p.js-tweet-text%27).text().indexOf(filterTerm) %21= -1) {            $(this).hide();          }      });    }})();" style="font-size:2em;">Filter Tweets!</a>
